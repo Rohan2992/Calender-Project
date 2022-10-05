@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    position: absolute;
+    top: 5%;
+    font-size: larger;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-bottom: 20%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222831;
+}
+.cal{
+    width:50px;
+    height: 50px;
+}
+.wrapper {
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.wrapper header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px 10px;
+}
+
+.wrapper header p {
+    font-weight: 600;
+    font-size: larger;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.wrapper .current-Date {
+    font-size: 1.45rem;
+    font-weight: 500;
+    color:#533483;
+}
+
+.wrapper .icons span {
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    font-size: 1.9rem;
+    color: #878787;
+    border-radius: 50%;
+    line-height: 38px;
+    margin: 0px 1px;
+    cursor: pointer;
+    /* padding : 8px; */
+    /* padding-right :15px; */
+
+}
+
+.wrapper .icons span:hover {
+    background-color: #f2f2f2;
+
+}
+
+.wrapper .icons span:last-child {
+    margin-right: -10px;
+}
+
+.calender {
+    padding: 20px;
+}
+
+.calender ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+
+}
+
+.calender .days {
+    margin-bottom: 20px;
+}
+
+.calender .weeks li {
+    font-weight: 500;
+}
+
+.calender .days li {
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.calender ul li {
+    position: relative;
+    width: calc(100% / 7);
+}
+
+.days li.inactive {
+    color: #aaa;
+}
+
+.days li.active {
+    color: #fff;
+}
+
+.calender .days li::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.days li:hover:before {
+    background: #f2f2f2;
+
+}
+
+.days li.active::before {
+    background: #FF2E63;
+}
+
+footer{
+    position: absolute;
+    width: 400px;
+    margin: 10px auto;
+    margin-left: 60px;
+    top: 90%;
+    color: white;
+
+}
