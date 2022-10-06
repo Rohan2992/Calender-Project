@@ -138,12 +138,12 @@ body {
     background: #FF2E63;
 }
 
-footer{
-    position: absolute;
-    width: 400px;
-    margin: 10px auto;
-    margin-left: 60px;
-    top: 90%;
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
     color: white;
-
+    top: 50px;
 }
