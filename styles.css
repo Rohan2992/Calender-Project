@@ -139,11 +139,11 @@ body {
 }
 
 .footer{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+     position: relative;
+    top: 50px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
     width: 450px;
     color: white;
-    top: 50px;
 }
