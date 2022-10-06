@@ -140,6 +140,7 @@ body {
 
 .footer{
     position: relative;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,3 +148,13 @@ body {
     color: white;
     top: 50px;
 }
+=======
+    top: 20px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    width: 450px;
+    color: white;
+
+}
+>>>>>>> bf23d086056f33e9e89b35b1ef508da47eba329e
