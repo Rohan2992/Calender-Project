@@ -31,8 +31,7 @@ const renderCalender = () => {
         Litag += `<li class="inactive">${i - lastDayOfMonth + 1}</li>`;
     }
     daysTag.innerHTML = Litag;
-    let today = new Date().getDate();
-    currentDate.innerText = `${months[currMonth]} ${today}, ${currYear}`;
+    currentDate.innerText = `${months[currMonth]} ${currYear}`;
 };
 
 // console.log(dateToShow);
