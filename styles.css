@@ -23,7 +23,6 @@ body {
     min-width:500px;
     min-height: 100vh;
     background-color: #222831;
-    min-width: 500px;
 }
 .cal{
     width:50px;
@@ -35,7 +34,7 @@ body {
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 100px;    
+    margin-top: 100px;
 }
 
 .wrapper header {
