@@ -13,13 +13,16 @@
     letter-spacing: 10px;
     color: #fff;
     margin-bottom: 20%;
+    text-align: center;
+    min-width: 500px;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 65vh;
     background-color: #222831;
+    min-width: 500px;
 }
 .cal{
     width:50px;
@@ -31,7 +34,7 @@ body {
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .wrapper header {
@@ -139,22 +142,11 @@ body {
 }
 
 .footer{
-    position: relative;
-<<<<<<< HEAD
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    color: white;
+     position: relative;
     top: 50px;
-}
-=======
-    top: 20px;
     display : flex;
     justify-content : center;
     align-items : center;
     width: 450px;
     color: white;
-
 }
->>>>>>> bf23d086056f33e9e89b35b1ef508da47eba329e

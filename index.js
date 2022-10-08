@@ -32,7 +32,7 @@ const renderCalender = () => {
     }
     daysTag.innerHTML = Litag;
     let today = new Date().getDate();
-    currentDate.innerText = `${months[currMonth]} ${today}, ${currYear}`;
+    currentDate.innerText = `${months[currMonth]}, ${currYear}`;
 };
 
 // console.log(dateToShow);
