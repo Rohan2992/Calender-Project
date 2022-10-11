@@ -13,7 +13,7 @@
 - 🔭 &nbsp; I’m currently learning Web Development and Data Structures.
 - 🤔 &nbsp; Exploring new technologies and developing software solutions and quick hacks.
 - 🎓 &nbsp; Studying Computer Science, computer programming and Mathematics.
-- 💼 &nbsp; Android developer and front-end web developer.
+- 💼 &nbsp; Website developer and front-end web developer.
 - 🌱 &nbsp; Enthusiast in cyber Security and Artificial Intelligence .
 - ✍️ &nbsp; Trying out new things.
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
